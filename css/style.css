@@ -1,0 +1,390 @@
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+.container {
+	margin: 0 auto;
+
+}
+
+.video{
+	margin: 0 auto;
+}
+
+header {
+  background: #333435;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+nav {
+  float: left;
+  padding: 0.5px 0;
+  word-spacing: 50px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+
+  position: relative;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #d6d6d6;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #d6d6d6;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 150ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+h1 {
+	margin-left: 25px;
+	text-align: center;
+}
+
+p {
+	margin-left: 25px;
+	text-align: center;
+}
+
+.title2{
+	margin-left: 25px;
+}
+
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
+
+/*THIS IS THE START OF THE VIDEOS PAGE!*/
+/**/
+/**/
+
+
+
+/*This is the Style Settings for All Network Generator Videos*/
+.networkgenerator{
+	margin: 0 auto;
+	text-align: center;
+    position:relative;
+    background:hidden;
+    width:100%;
+    min-width:100px;
+}
+
+.networkgeneratortitle{
+	text-align: left;
+}
+
+
+
+
+/*This is the Style Settings for Tutorial Video*/
+.tutorialvideo{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.tutorialvideoactual{
+
+}
+.tutorialvideotitle{
+	line-height: 15%;
+}
+.tutorialvideoresources{
+
+}
+
+
+
+/*This is the Style Settings for Two Tier Video*/
+.twotier{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.twotieractual{
+	
+}
+.twotiertitle{
+	line-height: 15%;	
+}
+.twotierresources{
+	line-height: 20%;
+}
+
+
+/*This is the Style Settings for Three Tier Subnet Video*/
+.threetiersubnet{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.threetiersubnettitle{
+	line-height: 15%;
+}
+.threetiersubnetresources{
+
+}
+
+
+
+/*This is the Style Settings for Three Tier Config Video*/
+.threetierconfig{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.threetierconfigtitle{
+	line-height: 15%;
+}
+.threetierconfigresources{
+
+}
+
+
+
+/*This is the Style Settings for Three Tier Vlan Video*/
+.threetiervlan{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.threetiervlantitle{
+	line-height: 15%;	
+}
+.threetiervlanresources{
+
+}
+
+
+
+
+/*This is the Style Settings for All Class B Videos*/
+.classb{
+	margin: 0 auto;
+	text-align: center;
+    position:relative;
+    background:hidden;
+    width:100%;
+    min-width:100px;
+}
+
+.classbtitle{
+	text-align: left;
+}
+
+
+
+
+/*This is the Style Settings for Subnetting Video*/
+.classbsubnet{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.classbsubnetactual{
+}
+.classbsubnettitle{
+	line-height: 15%;
+}
+.classbsubnetresources{
+
+}
+
+/*This is the Style Settings for Setup Video*/
+.classbsetup{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.classbsetupactual{
+}
+.classbsetuptitle{
+	line-height: 15%;
+}
+.classbsetupresources{
+
+}
+
+
+/*This is the Style Settings for Config Video*/
+.classbconfig{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.classbconfigactual{
+}
+.classbconfigtitle{
+	line-height: 15%;
+}
+.classbconfigresources{
+	line-height: 20%;
+}
+
+
+
+/*This is the Style Settings for All EXTRA Videos*/
+.extravideo{
+	margin: 0 auto;
+	text-align: center;
+    position:relative;
+    background:hidden;
+    width:100%;
+    min-width:100px;
+}
+
+.networkgeneratortitle{
+	text-align: left;
+}
+
+
+
+
+/*This is the Style Settings for Basic Switch Video*/
+.basicswitch{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.basicswitchactual{
+
+}
+.basicswitchtitle{
+	line-height: 15%;
+}
+.basicswitchresources{
+	line-height: 20%;
+}
+
+/*This is the Style Settings for RIP and OSPF Video*/
+.rip{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.ripactual{
+
+}
+.riptitle{
+	line-height: 15%;
+}
+.ripresources{
+
+}
+
+/*This is the Style Settings for RIP and OSPF Video*/
+.subnetyogi{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.subnetyogiactual{
+
+}
+.subnetyogititle{
+	line-height: 15%;
+}
+.subnetyogiresources{
+
+}
+
+
+
+
+/*This is the start of the Downloads Page CSS Styles*/
+.telecomgenerator{
+	text-align: left;
+}
+.para{
+	text-align: left;
+}
+.packettracer{
+	text-align: left;
+}
+
+.semonsg{
+	padding-top: 10px;
+	text-align: left;
+	line-height: 15px;
+}
+.h3name{
+	margin-left:35px;
+	line-height: 0;
+	text-align: left;
+}
+
+
+footer{
+	bottom: 0;
+	line-height: 25%;
+	font-size: 10px;
+	text-align: center;
+	width: 100%
+	padding-top: 15px;
+}
